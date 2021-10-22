@@ -1,0 +1,23 @@
+{
+  "name": "juanki-xyz",
+  "version": "1.0.0",
+  "description": "Testing some CI/CD setup with this project, might develop it into something more later",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Juan Carlos Morales",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.10",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
