@@ -1,5 +1,6 @@
+import React, { Component } from "react";
 const HomePage = () => {
-  return <div>Welcome to juanki.xyz</div>;
+  return <div data-testid="welcome">Welcome to juanki.xyz</div>;
 };
 
 export default HomePage;
